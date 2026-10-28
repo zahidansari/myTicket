@@ -1,0 +1,58 @@
+{
+  "theatres": [
+    {
+      "name": "Cineplex Downtown",
+      "address": "101 Main Street",
+      "city": "New York",
+      "contactEmail": "downtown@myticket.com",
+      "contactPhone": "+1-212-555-0101"
+    },
+    {
+      "name": "Star City Cinemas",
+      "address": "45 Park Avenue",
+      "city": "Chicago",
+      "contactEmail": "starcity@myticket.com",
+      "contactPhone": "+1-312-555-0199"
+    }
+  ],
+  "screens": [
+    { "theatreName": "Cineplex Downtown", "name": "Screen 1", "totalSeats": 180 },
+    { "theatreName": "Cineplex Downtown", "name": "Screen 2", "totalSeats": 120 },
+    { "theatreName": "Star City Cinemas", "name": "Screen A", "totalSeats": 200 }
+  ],
+  "movies": [
+    {
+      "title": "Inception",
+      "description": "A thief who steals secrets by entering dreams",
+      "releaseDate": "2010-07-16",
+      "durationMinutes": 148,
+      "language": "English",
+      "genre": "Sci-Fi",
+      "posterUrl": "https://example.com/inception.jpg"
+    },
+    {
+      "title": "Interstellar",
+      "description": "A team of explorers travel through a wormhole",
+      "releaseDate": "2014-11-07",
+      "durationMinutes": 169,
+      "language": "English",
+      "genre": "Adventure",
+      "posterUrl": "https://example.com/interstellar.jpg"
+    },
+    {
+      "title": "Avatar",
+      "description": "A marine on an alien planet falls in love with an indigenous woman",
+      "releaseDate": "2009-12-18",
+      "durationMinutes": 162,
+      "language": "English",
+      "genre": "Action",
+      "posterUrl": "https://example.com/avatar.jpg"
+    }
+  ],
+  "showtimes": [
+    { "movieTitle": "Inception", "theatreName": "Cineplex Downtown", "showDate": "2026-09-27", "showTime": "18:30", "price": 14.5 },
+    { "movieTitle": "Interstellar", "theatreName": "Cineplex Downtown", "showDate": "2026-09-28", "showTime": "20:00", "price": 16.75 },
+    { "movieTitle": "Avatar", "theatreName": "Star City Cinemas", "showDate": "2026-09-29", "showTime": "19:15", "price": 15.0 },
+    { "movieTitle": "Inception", "theatreName": "Star City Cinemas", "showDate": "2026-09-30", "showTime": "17:45", "price": 12.99 }
+  ]
+}
